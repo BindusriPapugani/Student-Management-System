@@ -1,0 +1,26 @@
+{
+  "student": [
+    {
+      "userName": "Chandu",
+      "userEmail": "chandu@gmail.com",
+      "mbno": "6897420256",
+      "course": "Software Testing with Java automation",
+      "id": "Oe-vQXNZDas"
+    },
+    {
+      "userName": "Guna",
+      "userEmail": "gunapapugani@gmail.com",
+      "mbno": "9370652780",
+      "course": "MERN Stack",
+      "id": "CJX6y6ljEZs"
+    },
+    {
+      "userName": "",
+      "userEmail": "",
+      "mbno": "1234567890",
+      "course": "",
+      "id": "OkZhVZ8lJ0s"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

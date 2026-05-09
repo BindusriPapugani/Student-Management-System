@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#header {
+    height: 50px;
+    width: 100vw;
+    font-size: 25px;
+    background-color: rgb(76, 103, 21);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navBar {
+    height: 60px;
+    width: 100vw;
+    background-color: olivedrab;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navBar a {
+    text-decoration: none;
+    color: white;
+    font-size: 21px;
+}
+
+.form {
+    height: 450px;
+    width: 500px;
+    border-radius: 15px;
+    box-shadow: 0 0 5px 5px rgb(107, 107, 107);
+    margin: 80px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.form h2 {
+    color: rgb(127, 170, 41);
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.form p {
+    font-size: 19px;
+    margin-bottom: 5px;
+}
+
+.form label {
+    display: inline-block;
+    width: 110px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.form input {
+    margin-top: 10px;
+}
+
+.form select , .form input {
+    height: 30px;
+    width: 270px;
+    margin: 10px 0;
+    font-family: sans-serif;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.form #submit {
+    width: 380px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    background-color: olivedrab;
+}
+
+.table{
+    margin: 70px auto;
+}
+th{
+    background-color:rgb(127, 170, 41);
+}
+th , td{
+    padding: 20px;
+    font-family: sans-serif;
+}
+th{
+    padding: 15px;
+}
+
+button a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+}
+
+td button{
+    height: 30px;
+    width: 60px;
+    font-family: sans-serif;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+}
+.upd{
+    background-color: #4CAF50;
+    margin-right: 20px;
+}
+.del{
+    background-color: #d9534f;
+    color: white;
+}
+.upd:hover{
+    opacity: 0.8;
+}
+.del:hover{
+    opacity: 0.8;
+}
+
